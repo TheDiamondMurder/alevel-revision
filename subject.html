@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subject | A Level Revision</title>
+    <link rel="stylesheet" href="styles.css?v=2" />
+  </head>
+  <body data-page="subject">
+    <header class="site-header">
+      <a class="brand" href="index.html"><span class="brand-mark"></span><span>A Level Revision</span></a>
+      <nav class="nav-links">
+        <a href="index.html">Subjects</a>
+        <a href="#skill-test">Skill Test</a>
+        <a href="#practice">Practice Quiz</a>
+        <a href="#stats">Stats</a>
+        <a href="#predictor">Grade Predictor</a>
+        <a href="#bank">Knowledge Bank</a>
+        <a href="#boundaries">Boundaries</a>
+        <a href="#channels">Channels</a>
+      </nav>
+    </header>
+
+    <main class="app">
+      <section class="hero compact" id="subject-hero"></section>
+
+      <section class="dashboard-grid">
+        <article class="panel stat-card">
+          <p class="kicker">answered</p>
+          <strong id="stat-answered">0</strong>
+          <span>questions tracked</span>
+        </article>
+        <article class="panel stat-card">
+          <p class="kicker">accuracy</p>
+          <strong id="stat-accuracy">--%</strong>
+          <span>all quizzes</span>
+        </article>
+        <article class="panel stat-card">
+          <p class="kicker">weakest topic</p>
+          <strong id="stat-weakest">--</strong>
+          <span>revise this first</span>
+        </article>
+      </section>
+
+      <section class="section-block" id="topics">
+        <div class="section-heading">
+          <p class="kicker">topic map</p>
+          <h2>choose a topic</h2>
+        </div>
+        <div class="topic-grid" id="topic-grid"></div>
+      </section>
+
+      <section class="section-block panel" id="skill-test">
+        <div class="section-heading row-heading">
+          <div>
+            <p class="kicker">diagnostic</p>
+            <h2>Skill Test</h2>
+          </div>
+          <button class="button button-light" id="start-skill-test" type="button">Start 50 Questions</button>
+        </div>
+        <p class="muted">A 50-question mixed-topic test used to estimate topic strength, paper predictions, and revision priorities.</p>
+        <div class="quiz-zone" id="skill-test-zone"></div>
+      </section>
+
+      <section class="section-block panel" id="practice">
+        <div class="section-heading">
+          <p class="kicker">custom practice</p>
+          <h2>Practice Quiz</h2>
+        </div>
+        <div class="quiz-builder">
+          <label>
+            <span>Question count</span>
+            <input id="practice-count" type="number" min="5" max="80" value="15" />
+          </label>
+          <div class="topic-select" id="practice-topics"></div>
+          <button class="button button-light" id="start-practice" type="button">Start Practice</button>
+        </div>
+        <div class="quiz-zone" id="practice-zone"></div>
+      </section>
+
+      <section class="section-block panel" id="stats">
+        <div class="section-heading">
+          <p class="kicker">performance</p>
+          <h2>Stats Dashboard</h2>
+        </div>
+        <div class="stats-grid" id="stats-grid"></div>
+        <div class="wrong-log" id="wrong-log"></div>
+      </section>
+
+      <section class="section-block panel" id="predictor">
+        <div class="section-heading">
+          <p class="kicker">forecast</p>
+          <h2>Grade Predictor</h2>
+        </div>
+        <div class="paper-grid" id="paper-predictions"></div>
+        <div class="manual-grid" id="manual-marks"></div>
+        <div class="grade-output" id="grade-output"></div>
+      </section>
+
+      <section class="section-block panel" id="bank">
+        <div class="section-heading">
+          <p class="kicker">revision notes</p>
+          <h2>Knowledge Bank</h2>
+        </div>
+        <input class="search-box" id="bank-search" type="search" placeholder="Search anything in this subject..." />
+        <div class="bank-results" id="bank-results"></div>
+      </section>
+
+      <section class="section-block panel" id="boundaries">
+        <div class="section-heading">
+          <p class="kicker">last year model</p>
+          <h2>Grade Boundaries</h2>
+        </div>
+        <div id="boundary-table"></div>
+        <div class="boundary-tool" id="boundary-tool"></div>
+      </section>
+
+      <section class="section-block panel" id="channels">
+        <div class="section-heading">
+          <p class="kicker">youtube</p>
+          <h2>Best Revision Channels</h2>
+        </div>
+        <div class="channel-grid" id="channel-grid"></div>
+      </section>
+    </main>
+
+    <script src="script.js?v=2"></script>
+  </body>
+</html>
