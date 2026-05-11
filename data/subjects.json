@@ -1,0 +1,348 @@
+{
+  "subjects": [
+    {
+      "id": "aqa-law",
+      "name": "AQA Law",
+      "board": "AQA",
+      "tagline": "legal rules, evaluation, application and essay structure",
+      "papers": [
+        { "id": "paper-1", "name": "Paper 1: Criminal Law", "max": 100, "topicWeights": { "criminal-law": 45, "legal-system": 25, "tort-law": 15, "law-making": 15 } },
+        { "id": "paper-2", "name": "Paper 2: Tort Law", "max": 100, "topicWeights": { "tort-law": 45, "legal-system": 25, "criminal-law": 15, "law-making": 15 } },
+        { "id": "paper-3", "name": "Paper 3: Human Rights or Contract", "max": 100, "topicWeights": { "human-rights": 45, "law-making": 25, "legal-system": 15, "criminal-law": 15 } }
+      ],
+      "boundaries": { "source": "Starter boundary model - replace with official last-year AQA figures", "grades": { "A*": 240, "A": 210, "B": 180, "C": 150, "D": 120, "E": 90 } },
+      "topics": [
+        { "id": "criminal-law", "name": "Criminal Law", "paper": "paper-1", "keywords": ["actus reus", "mens rea", "murder", "manslaughter", "theft"], "notes": ["Criminal liability usually needs actus reus and mens rea to coincide.", "Strong answers apply the offence elements to facts and evaluate possible defences."] },
+        { "id": "tort-law", "name": "Tort Law", "paper": "paper-2", "keywords": ["negligence", "duty of care", "breach", "causation", "damages"], "notes": ["Negligence answers should move through duty, breach, causation and remoteness.", "Use case law to support each stage rather than naming cases without applying them."] },
+        { "id": "legal-system", "name": "Legal System", "paper": "paper-1", "keywords": ["courts", "appeals", "juries", "magistrates", "judiciary"], "notes": ["Legal system questions often reward clear institutional knowledge and balanced evaluation.", "Examples strengthen evaluation of lay participation and access to justice."] },
+        { "id": "law-making", "name": "Law Making", "paper": "paper-3", "keywords": ["parliament", "delegated legislation", "statutory interpretation", "precedent"], "notes": ["Law making requires process knowledge and criticism.", "For interpretation, define the rule, explain its use, then evaluate certainty and fairness."] },
+        { "id": "human-rights", "name": "Human Rights", "paper": "paper-3", "keywords": ["ECHR", "Human Rights Act", "proportionality", "privacy", "freedom of expression"], "notes": ["Human rights answers need article knowledge and proportionality reasoning.", "Evaluation should consider the balance between individual liberty and public interest."] }
+      ],
+      "channels": [
+        { "name": "A Level Law Teacher", "url": "https://www.youtube.com/results?search_query=A+Level+Law+revision", "note": "search hub for law topic walkthroughs" },
+        { "name": "Eve Cornwell", "url": "https://www.youtube.com/@EveCornwell", "note": "law study skills and legal concepts" },
+        { "name": "Tutor2u Law", "url": "https://www.youtube.com/results?search_query=tutor2u+A+Level+Law", "note": "revision livestreams and exam skills" }
+      ]
+    },
+    {
+      "id": "aqa-business",
+      "name": "AQA Business",
+      "board": "AQA",
+      "tagline": "strategy, finance, marketing, operations and decision making",
+      "papers": [
+        { "id": "paper-1", "name": "Paper 1: Business 1", "max": 100, "topicWeights": { "marketing": 25, "finance": 25, "operations": 20, "people": 15, "strategy": 15 } },
+        { "id": "paper-2", "name": "Paper 2: Business 2", "max": 100, "topicWeights": { "finance": 25, "strategy": 25, "marketing": 20, "operations": 15, "people": 15 } },
+        { "id": "paper-3", "name": "Paper 3: Business 3", "max": 100, "topicWeights": { "strategy": 30, "marketing": 20, "finance": 20, "operations": 15, "people": 15 } }
+      ],
+      "boundaries": { "source": "Starter boundary model - replace with official last-year AQA figures", "grades": { "A*": 240, "A": 210, "B": 180, "C": 150, "D": 120, "E": 90 } },
+      "topics": [
+        { "id": "marketing", "name": "Marketing", "paper": "paper-1", "keywords": ["segmentation", "positioning", "market research", "marketing mix"], "notes": ["Marketing answers should connect decisions to customer needs and competitive position.", "Use context when judging whether a marketing strategy is suitable."] },
+        { "id": "finance", "name": "Finance", "paper": "paper-2", "keywords": ["cash flow", "profit", "break-even", "investment appraisal"], "notes": ["Finance questions often require calculation plus interpretation.", "A strong conclusion links financial data to risk and objectives."] },
+        { "id": "operations", "name": "Operations", "paper": "paper-1", "keywords": ["capacity", "quality", "lean production", "stock control"], "notes": ["Operations decisions affect cost, quality, speed and flexibility.", "Good evaluation considers trade-offs rather than pretending one method is always best."] },
+        { "id": "people", "name": "People Management", "paper": "paper-2", "keywords": ["motivation", "leadership", "training", "organisation structure"], "notes": ["People questions need theory applied to the business context.", "Use evidence to judge the impact on productivity, retention and culture."] },
+        { "id": "strategy", "name": "Strategy", "paper": "paper-3", "keywords": ["SWOT", "Ansoff", "Porter", "objectives", "change"], "notes": ["Strategic answers should consider long-term direction and external pressure.", "Evaluation should compare strategic options and justify a recommendation."] }
+      ],
+      "channels": [
+        { "name": "Two Teachers", "url": "https://www.youtube.com/@TwoTeachers", "note": "business explanations and exam technique" },
+        { "name": "TakingTheBiz", "url": "https://www.youtube.com/@TakingTheBiz", "note": "A Level Business topic videos" },
+        { "name": "Tutor2u Business", "url": "https://www.youtube.com/@tutor2u", "note": "revision blasts and exam practice" }
+      ]
+    },
+    {
+      "id": "ocr-computer-science",
+      "name": "OCR Computer Science",
+      "board": "OCR",
+      "tagline": "systems, algorithms, programming and computational thinking",
+      "papers": [
+        { "id": "paper-1", "name": "Computer Systems", "max": 140, "topicWeights": { "architecture": 25, "networks": 20, "data": 20, "software": 20, "ethics": 15 } },
+        { "id": "paper-2", "name": "Algorithms and Programming", "max": 140, "topicWeights": { "algorithms": 35, "programming": 35, "data": 15, "architecture": 15 } },
+        { "id": "nea", "name": "Programming Project", "max": 70, "topicWeights": { "programming": 45, "algorithms": 25, "software": 20, "ethics": 10 } }
+      ],
+      "boundaries": { "source": "Starter boundary model - replace with official last-year OCR figures", "grades": { "A*": 280, "A": 245, "B": 210, "C": 175, "D": 140, "E": 105 } },
+      "topics": [
+        { "id": "architecture", "name": "Computer Architecture", "paper": "paper-1", "keywords": ["CPU", "registers", "fetch execute cycle", "memory", "pipelining"], "notes": ["Architecture questions often test precise component roles.", "Explain the process step-by-step, especially for CPU and memory operations."] },
+        { "id": "networks", "name": "Networks", "paper": "paper-1", "keywords": ["protocols", "TCP/IP", "DNS", "routing", "security"], "notes": ["Network answers need layered thinking and clear protocol roles.", "Security questions should mention threats, prevention and limitations."] },
+        { "id": "data", "name": "Data Representation", "paper": "paper-1", "keywords": ["binary", "hex", "floating point", "compression", "encryption"], "notes": ["Show working in conversions and calculations.", "For compression and encryption, compare method, purpose and trade-off."] },
+        { "id": "algorithms", "name": "Algorithms", "paper": "paper-2", "keywords": ["search", "sort", "Big O", "recursion", "trace tables"], "notes": ["Algorithm marks often come from dry-running and explaining efficiency.", "Trace tables are a reliable way to prove you understand control flow."] },
+        { "id": "programming", "name": "Programming", "paper": "paper-2", "keywords": ["OOP", "procedures", "functions", "arrays", "files"], "notes": ["Programming answers should use clear variables and structured logic.", "State validation, testing and maintainability where relevant."] },
+        { "id": "software", "name": "Software Development", "paper": "paper-1", "keywords": ["waterfall", "agile", "testing", "IDE", "translators"], "notes": ["Development questions reward comparison and project context.", "Testing answers should include normal, boundary and erroneous data."] },
+        { "id": "ethics", "name": "Ethics and Legislation", "paper": "paper-1", "keywords": ["privacy", "copyright", "environment", "AI", "data protection"], "notes": ["Ethics answers need both stakeholders and consequences.", "Balance benefits against risks instead of writing one-sided opinions."] }
+      ],
+      "channels": [
+        { "name": "Craig'n'Dave", "url": "https://www.youtube.com/@craigndave", "note": "OCR Computer Science topic coverage" },
+        { "name": "Isaac Computer Science", "url": "https://www.youtube.com/@isaaccomputerscience", "note": "concept videos and practice" },
+        { "name": "Computer Science Tutor", "url": "https://www.youtube.com/results?search_query=Computer+Science+Tutor+OCR+A+Level", "note": "algorithm and programming support" }
+      ]
+    },
+    {
+      "id": "edexcel-maths",
+      "name": "Edexcel Maths",
+      "board": "Edexcel",
+      "tagline": "pure maths, statistics, mechanics and problem solving",
+      "papers": [
+        { "id": "pure-1", "name": "Pure Mathematics 1", "max": 100, "topicWeights": { "algebra": 25, "calculus": 30, "functions": 20, "trigonometry": 15, "proof": 10 } },
+        { "id": "pure-2", "name": "Pure Mathematics 2", "max": 100, "topicWeights": { "calculus": 30, "sequences": 20, "vectors": 15, "trigonometry": 20, "functions": 15 } },
+        { "id": "stats-mech", "name": "Statistics and Mechanics", "max": 100, "topicWeights": { "statistics": 50, "mechanics": 50 } }
+      ],
+      "boundaries": { "source": "Starter boundary model - replace with official last-year Edexcel figures", "grades": { "A*": 240, "A": 210, "B": 180, "C": 150, "D": 120, "E": 90 } },
+      "topics": [
+        { "id": "algebra", "name": "Algebra", "paper": "pure-1", "keywords": ["quadratics", "indices", "logs", "partial fractions"], "notes": ["Algebra is the language of the whole course.", "Most mistakes come from weak manipulation rather than hard concepts."] },
+        { "id": "calculus", "name": "Calculus", "paper": "pure-1", "keywords": ["differentiation", "integration", "rates", "area"], "notes": ["Calculus questions often combine method with interpretation.", "Always check whether the answer requires exact form, units or a coordinate."] },
+        { "id": "functions", "name": "Functions", "paper": "pure-1", "keywords": ["domain", "range", "inverse", "composite"], "notes": ["Function questions depend on notation and restrictions.", "State domains carefully, especially for inverse functions."] },
+        { "id": "trigonometry", "name": "Trigonometry", "paper": "pure-2", "keywords": ["identities", "radians", "equations", "graphs"], "notes": ["Trig requires both identity fluency and graph awareness.", "Remember to find all solutions in the required interval."] },
+        { "id": "sequences", "name": "Sequences and Series", "paper": "pure-2", "keywords": ["arithmetic", "geometric", "binomial", "iteration"], "notes": ["Know when to use sequence formulae versus recurrence.", "For binomial expansions, check validity conditions."] },
+        { "id": "vectors", "name": "Vectors", "paper": "pure-2", "keywords": ["3D vectors", "lines", "scalar product", "geometry"], "notes": ["Draw diagrams and define direction vectors clearly.", "Use scalar product for angles and perpendicularity."] },
+        { "id": "statistics", "name": "Statistics", "paper": "stats-mech", "keywords": ["hypothesis testing", "normal distribution", "correlation", "sampling"], "notes": ["Statistics answers need context, not just numbers.", "Hypothesis tests require hypotheses, test statistic, conclusion and wording."] },
+        { "id": "mechanics", "name": "Mechanics", "paper": "stats-mech", "keywords": ["SUVAT", "forces", "moments", "projectiles"], "notes": ["Mechanics rewards clear diagrams and sign conventions.", "State assumptions when modelling real situations."] },
+        { "id": "proof", "name": "Proof", "paper": "pure-1", "keywords": ["contradiction", "deduction", "counterexample"], "notes": ["Proof is about logical explanation, not numerical evidence.", "Use precise statements and avoid assuming the conclusion."] }
+      ],
+      "channels": [
+        { "name": "TLMaths", "url": "https://www.youtube.com/@TLMaths", "note": "full A Level Maths topic coverage" },
+        { "name": "Bicen Maths", "url": "https://www.youtube.com/@BicenMaths", "note": "Edexcel-style practice and explanations" },
+        { "name": "ExamSolutions", "url": "https://www.youtube.com/@ExamSolutions", "note": "worked examples and past-paper style walkthroughs" }
+      ]
+    },
+    {
+      "id": "aqa-psychology",
+      "name": "AQA Psychology",
+      "board": "AQA",
+      "tagline": "approaches, research methods, biopsychology and evaluation",
+      "papers": [
+        { "id": "paper-1", "name": "Introductory Topics", "max": 96, "topicWeights": { "social-influence": 25, "memory": 25, "attachment": 25, "psychopathology": 25 } },
+        { "id": "paper-2", "name": "Psychology in Context", "max": 96, "topicWeights": { "approaches": 30, "biopsychology": 30, "research-methods": 40 } },
+        { "id": "paper-3", "name": "Issues and Options", "max": 96, "topicWeights": { "issues-debates": 30, "relationships": 20, "schizophrenia": 25, "aggression": 25 } }
+      ],
+      "boundaries": { "source": "Starter boundary model - replace with official last-year AQA figures", "grades": { "A*": 230, "A": 202, "B": 173, "C": 144, "D": 115, "E": 86 } },
+      "topics": [
+        { "id": "social-influence", "name": "Social Influence", "paper": "paper-1", "keywords": ["conformity", "obedience", "minority influence"], "notes": ["Use studies and evaluation together, not separately.", "Application questions often ask you to identify processes in a scenario."] },
+        { "id": "memory", "name": "Memory", "paper": "paper-1", "keywords": ["MSM", "WMM", "forgetting", "eyewitness testimony"], "notes": ["Memory essays should explain models before evaluating evidence.", "EWT questions need careful attention to cognitive interview detail."] },
+        { "id": "attachment", "name": "Attachment", "paper": "paper-1", "keywords": ["Bowlby", "Ainsworth", "privation", "institutionalisation"], "notes": ["Attachment topics reward precise study detail and ethical evaluation.", "Distinguish deprivation from privation clearly."] },
+        { "id": "psychopathology", "name": "Psychopathology", "paper": "paper-1", "keywords": ["phobias", "depression", "OCD", "treatments"], "notes": ["Link explanations to treatments where possible.", "Evaluation should compare biological and psychological approaches."] },
+        { "id": "approaches", "name": "Approaches", "paper": "paper-2", "keywords": ["behaviourism", "cognitive", "biological", "humanistic"], "notes": ["Approaches questions often ask for assumptions and evaluation.", "Use comparisons to show depth."] },
+        { "id": "biopsychology", "name": "Biopsychology", "paper": "paper-2", "keywords": ["nervous system", "neurons", "localisation", "plasticity"], "notes": ["Biopsychology needs accurate biological terminology.", "Diagrams can help organise processes like synaptic transmission."] },
+        { "id": "research-methods", "name": "Research Methods", "paper": "paper-2", "keywords": ["experiments", "sampling", "validity", "statistics"], "notes": ["Research methods marks are often practical and procedural.", "Always explain how a design choice affects validity or reliability."] },
+        { "id": "issues-debates", "name": "Issues and Debates", "paper": "paper-3", "keywords": ["nature nurture", "free will", "reductionism", "ethics"], "notes": ["Issues and debates can be applied across the entire course.", "Use examples from named topics to avoid generic evaluation."] }
+      ],
+      "channels": [
+        { "name": "Psych Boost", "url": "https://www.youtube.com/@PsychBoost", "note": "AQA Psychology topic videos" },
+        { "name": "Bear it in MIND", "url": "https://www.youtube.com/@BearitinMIND", "note": "psychology revision and exam skills" },
+        { "name": "Tutor2u Psychology", "url": "https://www.youtube.com/results?search_query=tutor2u+psychology+AQA", "note": "revision livestreams and topic summaries" }
+      ]
+    },
+    {
+      "id": "aqa-sociology",
+      "name": "AQA Sociology",
+      "board": "AQA",
+      "tagline": "theories, methods, education, families, crime and beliefs",
+      "papers": [
+        { "id": "paper-1", "name": "Education with Theory and Methods", "max": 80, "topicWeights": { "education": 55, "methods": 25, "theory": 20 } },
+        { "id": "paper-2", "name": "Topics in Sociology", "max": 80, "topicWeights": { "families": 50, "beliefs": 35, "theory": 15 } },
+        { "id": "paper-3", "name": "Crime and Deviance with Theory", "max": 80, "topicWeights": { "crime": 55, "theory": 25, "methods": 20 } }
+      ],
+      "boundaries": { "source": "Starter boundary model - replace with official last-year AQA figures", "grades": { "A*": 192, "A": 168, "B": 144, "C": 120, "D": 96, "E": 72 } },
+      "topics": [
+        { "id": "education", "name": "Education", "paper": "paper-1", "keywords": ["class", "gender", "ethnicity", "policies", "achievement"], "notes": ["Education essays need evidence from internal and external factors.", "Always link sociologists to the question focus."] },
+        { "id": "methods", "name": "Methods", "paper": "paper-1", "keywords": ["interviews", "questionnaires", "observation", "validity"], "notes": ["Methods answers need strengths, limitations and context.", "Applied methods should connect the method to the research group."] },
+        { "id": "theory", "name": "Theory", "paper": "paper-3", "keywords": ["functionalism", "Marxism", "feminism", "postmodernism"], "notes": ["Theory is strongest when applied to social issues.", "Compare perspectives directly rather than listing them."] },
+        { "id": "families", "name": "Families and Households", "paper": "paper-2", "keywords": ["family diversity", "childhood", "demography", "gender roles"], "notes": ["Family essays reward trends, evidence and theoretical debate.", "Use contemporary examples for diversity and changing roles."] },
+        { "id": "beliefs", "name": "Beliefs in Society", "paper": "paper-2", "keywords": ["religion", "secularisation", "cults", "ideology"], "notes": ["Beliefs questions often hinge on evidence for or against secularisation.", "Use global examples where appropriate."] },
+        { "id": "crime", "name": "Crime and Deviance", "paper": "paper-3", "keywords": ["labelling", "subcultures", "globalisation", "green crime"], "notes": ["Crime essays need theory, evidence and evaluation.", "Distinguish explanations of offending from explanations of social construction."] }
+      ],
+      "channels": [
+        { "name": "The Sociology Guy", "url": "https://www.youtube.com/@TheSociologyGuy", "note": "AQA Sociology topic coverage" },
+        { "name": "Tutor2u Sociology", "url": "https://www.youtube.com/results?search_query=tutor2u+sociology+AQA", "note": "revision videos and exam support" },
+        { "name": "Precooked Sociology", "url": "https://www.youtube.com/results?search_query=Precooked+Sociology", "note": "essay-focused sociology revision" }
+      ]
+    },
+    {
+      "id": "wjec-criminology",
+      "name": "WJEC Criminology",
+      "board": "WJEC",
+      "tagline": "crime theories, campaigns, justice and controlled assessment skills",
+      "papers": [
+        { "id": "unit-1", "name": "Unit 1: Changing Awareness", "max": 100, "topicWeights": { "campaigns": 45, "crime-types": 35, "media": 20 } },
+        { "id": "unit-2", "name": "Unit 2: Criminological Theories", "max": 100, "topicWeights": { "theories": 65, "crime-types": 20, "media": 15 } },
+        { "id": "unit-3", "name": "Unit 3: Crime Scene to Courtroom", "max": 100, "topicWeights": { "investigation": 45, "courtroom": 35, "justice": 20 } },
+        { "id": "unit-4", "name": "Unit 4: Crime and Punishment", "max": 100, "topicWeights": { "justice": 45, "punishment": 40, "theories": 15 } }
+      ],
+      "boundaries": { "source": "Starter boundary model - replace with official last-year WJEC figures", "grades": { "A*": 320, "A": 280, "B": 240, "C": 200, "D": 160, "E": 120 } },
+      "topics": [
+        { "id": "crime-types", "name": "Types of Crime", "paper": "unit-1", "keywords": ["white collar", "moral crime", "state crime", "hate crime"], "notes": ["Crime type answers need examples and reasons for under-reporting.", "Distinguish legal categories from social perceptions."] },
+        { "id": "campaigns", "name": "Campaigns for Change", "paper": "unit-1", "keywords": ["campaign design", "aims", "methods", "evaluation"], "notes": ["Campaign work needs clear aims, target audience and methods.", "Evaluation should measure whether the campaign could change awareness or law."] },
+        { "id": "media", "name": "Media Representation", "paper": "unit-1", "keywords": ["moral panic", "stereotypes", "news values"], "notes": ["Media questions ask how crime is portrayed and why.", "Use examples to support claims about fear or distortion."] },
+        { "id": "theories", "name": "Criminological Theories", "paper": "unit-2", "keywords": ["biological", "individualistic", "sociological", "labelling"], "notes": ["Theory answers need explanation, evidence and criticism.", "Compare theories by how well they explain different crimes."] },
+        { "id": "investigation", "name": "Crime Scene to Courtroom", "paper": "unit-3", "keywords": ["evidence", "forensics", "police", "CPS"], "notes": ["Investigation answers should follow the process from scene to charge.", "Mention reliability and limitations of evidence."] },
+        { "id": "courtroom", "name": "Courtroom Process", "paper": "unit-3", "keywords": ["trial", "witnesses", "juries", "verdict"], "notes": ["Courtroom questions need roles and process knowledge.", "Evaluation can consider fairness, bias and effectiveness."] },
+        { "id": "justice", "name": "Justice System", "paper": "unit-4", "keywords": ["agencies", "law enforcement", "social control"], "notes": ["Justice system answers need agency roles and relationships.", "Use examples of formal and informal social control."] },
+        { "id": "punishment", "name": "Punishment", "paper": "unit-4", "keywords": ["deterrence", "rehabilitation", "retribution", "public protection"], "notes": ["Punishment essays should compare aims and effectiveness.", "Use recidivism, cost and ethics in evaluation."] }
+      ],
+      "channels": [
+        { "name": "WJEC Criminology Revision", "url": "https://www.youtube.com/results?search_query=WJEC+Criminology+revision", "note": "search hub for unit-specific videos" },
+        { "name": "Criminology Web", "url": "https://www.youtube.com/results?search_query=Level+3+Criminology+WJEC", "note": "topic walkthroughs and controlled assessment support" }
+      ]
+    },
+    {
+      "id": "edexcel-geography",
+      "name": "Edexcel Geography",
+      "board": "Edexcel",
+      "tagline": "physical systems, human systems, synoptic thinking and fieldwork",
+      "papers": [
+        { "id": "paper-1", "name": "Physical Geography", "max": 105, "topicWeights": { "tectonics": 30, "coasts": 25, "water-carbon": 30, "fieldwork": 15 } },
+        { "id": "paper-2", "name": "Human Geography", "max": 105, "topicWeights": { "globalisation": 30, "regeneration": 25, "superpowers": 25, "migration": 20 } },
+        { "id": "paper-3", "name": "Synoptic Investigation", "max": 70, "topicWeights": { "synoptic": 60, "fieldwork": 20, "water-carbon": 20 } },
+        { "id": "nea", "name": "Coursework", "max": 70, "topicWeights": { "fieldwork": 70, "synoptic": 30 } }
+      ],
+      "boundaries": { "source": "Starter boundary model - replace with official last-year Edexcel figures", "grades": { "A*": 280, "A": 245, "B": 210, "C": 175, "D": 140, "E": 105 } },
+      "topics": [
+        { "id": "tectonics", "name": "Tectonics", "paper": "paper-1", "keywords": ["plates", "hazards", "risk", "management"], "notes": ["Tectonics answers need process knowledge and place evidence.", "Evaluate risk using governance, development and vulnerability."] },
+        { "id": "coasts", "name": "Coasts", "paper": "paper-1", "keywords": ["erosion", "sediment", "sea level", "management"], "notes": ["Coasts questions need landform processes and systems thinking.", "Use case studies when judging management."] },
+        { "id": "water-carbon", "name": "Water and Carbon Cycles", "paper": "paper-1", "keywords": ["stores", "flows", "feedback", "climate"], "notes": ["Cycle questions require systems vocabulary.", "Link human activity to changing stores and flows."] },
+        { "id": "globalisation", "name": "Globalisation", "paper": "paper-2", "keywords": ["TNCs", "trade", "culture", "development"], "notes": ["Globalisation answers need winners, losers and scale.", "Use named examples for flows and impacts."] },
+        { "id": "regeneration", "name": "Regeneration", "paper": "paper-2", "keywords": ["inequality", "place", "stakeholders", "rebranding"], "notes": ["Regeneration needs place-specific evidence.", "Evaluation should consider different stakeholders."] },
+        { "id": "superpowers", "name": "Superpowers", "paper": "paper-2", "keywords": ["geopolitics", "power", "emerging powers", "conflict"], "notes": ["Superpower questions ask about hard, soft and smart power.", "Use current geopolitical examples carefully."] },
+        { "id": "migration", "name": "Migration", "paper": "paper-2", "keywords": ["push-pull", "refugees", "policy", "identity"], "notes": ["Migration questions need causes, impacts and policy responses.", "Balance economic, social and political dimensions."] },
+        { "id": "fieldwork", "name": "Fieldwork and NEA", "paper": "nea", "keywords": ["hypothesis", "sampling", "risk", "evaluation"], "notes": ["Fieldwork marks come from method justification and evaluation.", "Be precise about limitations and improvements."] },
+        { "id": "synoptic", "name": "Synoptic Links", "paper": "paper-3", "keywords": ["connections", "players", "attitudes", "futures"], "notes": ["Synoptic answers connect multiple parts of the course.", "Use evidence from resources and your own knowledge."] }
+      ],
+      "channels": [
+        { "name": "Time for Geography", "url": "https://www.youtube.com/@TimeforGeography", "note": "fieldwork and geography concepts" },
+        { "name": "Internet Geography", "url": "https://www.youtube.com/@InternetGeography", "note": "topic summaries and case studies" },
+        { "name": "Geography Hawks", "url": "https://www.youtube.com/@GeographyHawks", "note": "A Level Geography support" }
+      ]
+    },
+    {
+      "id": "aqa-biology",
+      "name": "AQA Biology",
+      "board": "AQA",
+      "tagline": "cells, biochemistry, genetics, ecology and practical analysis",
+      "papers": [
+        { "id": "paper-1", "name": "Paper 1", "max": 91, "topicWeights": { "biological-molecules": 25, "cells": 25, "exchange": 20, "genetics": 15, "practicals": 15 } },
+        { "id": "paper-2", "name": "Paper 2", "max": 91, "topicWeights": { "energy": 25, "responses": 20, "genetics": 25, "ecology": 15, "practicals": 15 } },
+        { "id": "paper-3", "name": "Paper 3", "max": 78, "topicWeights": { "practicals": 35, "genetics": 20, "ecology": 20, "energy": 15, "cells": 10 } }
+      ],
+      "boundaries": { "source": "Starter boundary model - replace with official last-year AQA figures", "grades": { "A*": 208, "A": 182, "B": 156, "C": 130, "D": 104, "E": 78 } },
+      "topics": [
+        { "id": "biological-molecules", "name": "Biological Molecules", "paper": "paper-1", "keywords": ["carbohydrates", "proteins", "lipids", "enzymes", "DNA"], "notes": ["Molecule questions need structure-function links.", "Enzyme questions often require graph interpretation and controls."] },
+        { "id": "cells", "name": "Cells", "paper": "paper-1", "keywords": ["organelles", "transport", "immunity", "microscopy"], "notes": ["Cells topics reward precise terminology and process order.", "Use magnification formulae carefully."] },
+        { "id": "exchange", "name": "Exchange and Transport", "paper": "paper-1", "keywords": ["gas exchange", "mass transport", "heart", "xylem", "phloem"], "notes": ["Exchange answers should connect structure to efficient transport.", "Use pressure gradients and surface area where relevant."] },
+        { "id": "energy", "name": "Energy Transfers", "paper": "paper-2", "keywords": ["photosynthesis", "respiration", "ATP", "chloroplasts"], "notes": ["Energy pathways require sequence and location knowledge.", "Do not confuse reduced NADP with reduced NAD."] },
+        { "id": "responses", "name": "Responses", "paper": "paper-2", "keywords": ["nervous system", "synapses", "muscles", "homeostasis"], "notes": ["Responses questions often test coordination and negative feedback.", "Use named hormones and effectors accurately."] },
+        { "id": "genetics", "name": "Genetics and Populations", "paper": "paper-2", "keywords": ["inheritance", "gene expression", "Hardy-Weinberg", "evolution"], "notes": ["Genetics requires careful notation and probability reasoning.", "Population genetics questions need assumptions and interpretation."] },
+        { "id": "ecology", "name": "Ecology", "paper": "paper-2", "keywords": ["succession", "populations", "nutrient cycles", "conservation"], "notes": ["Ecology answers need interactions between biotic and abiotic factors.", "Use data to support conclusions."] },
+        { "id": "practicals", "name": "Required Practicals", "paper": "paper-3", "keywords": ["variables", "controls", "uncertainty", "risk", "validity"], "notes": ["Practical questions reward method logic and error awareness.", "State control variables and justify improvements."] }
+      ],
+      "channels": [
+        { "name": "Miss Estruch", "url": "https://www.youtube.com/@MissEstruch", "note": "AQA Biology explanations" },
+        { "name": "SnapRevise", "url": "https://www.youtube.com/@SnapRevise", "note": "biology topic videos" },
+        { "name": "Primrose Kitten", "url": "https://www.youtube.com/@PrimroseKitten", "note": "science revision and exam technique" }
+      ]
+    },
+    {
+      "id": "aqa-english-literature",
+      "name": "AQA English Literature",
+      "board": "AQA",
+      "tagline": "texts, contexts, interpretations and essay arguments",
+      "papers": [
+        { "id": "paper-1", "name": "Love Through the Ages", "max": 75, "topicWeights": { "shakespeare": 30, "poetry": 25, "prose": 25, "context": 20 } },
+        { "id": "paper-2", "name": "Texts in Shared Contexts", "max": 75, "topicWeights": { "modern-texts": 35, "poetry": 25, "prose": 20, "context": 20 } },
+        { "id": "nea", "name": "NEA", "max": 50, "topicWeights": { "comparison": 40, "prose": 25, "context": 20, "critics": 15 } }
+      ],
+      "boundaries": { "source": "Starter boundary model - replace with official last-year AQA figures", "grades": { "A*": 160, "A": 140, "B": 120, "C": 100, "D": 80, "E": 60 } },
+      "topics": [
+        { "id": "shakespeare", "name": "Shakespeare", "paper": "paper-1", "keywords": ["tragedy", "comedy", "dramatic methods", "context"], "notes": ["Shakespeare essays need close method analysis and dramatic purpose.", "Use context to illuminate meaning rather than bolt it on."] },
+        { "id": "poetry", "name": "Poetry", "paper": "paper-1", "keywords": ["form", "structure", "voice", "imagery"], "notes": ["Poetry answers should analyse form and structure as well as language.", "Comparisons work best around argument, not feature spotting."] },
+        { "id": "prose", "name": "Prose", "paper": "paper-2", "keywords": ["narrative voice", "character", "setting", "motif"], "notes": ["Prose essays need a clear line of argument.", "Embed quotations and explore alternative interpretations."] },
+        { "id": "modern-texts", "name": "Modern Texts", "paper": "paper-2", "keywords": ["modernity", "politics", "identity", "conflict"], "notes": ["Modern text essays often reward social and historical context.", "Discuss writer's methods and wider meanings together."] },
+        { "id": "context", "name": "Context", "paper": "paper-1", "keywords": ["historical context", "genre", "reception", "author"], "notes": ["Context should support interpretation, not replace analysis.", "Use precise context rather than generic background."] },
+        { "id": "comparison", "name": "Comparison", "paper": "nea", "keywords": ["links", "contrasts", "interpretations", "argument"], "notes": ["Comparison requires an argument that holds both texts together.", "Avoid alternating paragraphs with no synthesis."] },
+        { "id": "critics", "name": "Critical Views", "paper": "nea", "keywords": ["interpretations", "debate", "readings", "criticism"], "notes": ["Critical views should challenge or extend your argument.", "Use critics briefly and purposefully."] }
+      ],
+      "channels": [
+        { "name": "Mr Bruff", "url": "https://www.youtube.com/@mrbruff", "note": "English literature analysis and exam skills" },
+        { "name": "Stacey Reay", "url": "https://www.youtube.com/@StaceyReay", "note": "literature lectures and context" },
+        { "name": "Massolit", "url": "https://www.youtube.com/@Massolit", "note": "academic lectures and literary context" }
+      ]
+    },
+    {
+      "id": "ocr-english-literature",
+      "name": "OCR English Literature",
+      "board": "OCR",
+      "tagline": "drama, poetry, prose, comparison and critical readings",
+      "papers": [
+        { "id": "paper-1", "name": "Drama and Poetry Pre-1900", "max": 60, "topicWeights": { "drama": 35, "poetry": 35, "context": 20, "critics": 10 } },
+        { "id": "paper-2", "name": "Comparative and Contextual Study", "max": 60, "topicWeights": { "comparison": 35, "prose": 30, "context": 20, "critics": 15 } },
+        { "id": "nea", "name": "Literature Post-1900", "max": 40, "topicWeights": { "comparison": 35, "prose": 25, "poetry": 20, "critics": 20 } }
+      ],
+      "boundaries": { "source": "Starter boundary model - replace with official last-year OCR figures", "grades": { "A*": 128, "A": 112, "B": 96, "C": 80, "D": 64, "E": 48 } },
+      "topics": [
+        { "id": "drama", "name": "Drama", "paper": "paper-1", "keywords": ["stagecraft", "dialogue", "tragedy", "audience"], "notes": ["Drama answers should discuss performance and audience effect.", "Analyse structure, stage directions and dramatic tension."] },
+        { "id": "poetry", "name": "Poetry", "paper": "paper-1", "keywords": ["voice", "form", "metre", "imagery"], "notes": ["Poetry needs close analysis of language and pattern.", "Use technical vocabulary only when it supports meaning."] },
+        { "id": "prose", "name": "Prose", "paper": "paper-2", "keywords": ["narrator", "theme", "character", "setting"], "notes": ["Prose responses need argument and textual detail.", "Consider narrative perspective and structural choices."] },
+        { "id": "comparison", "name": "Comparison", "paper": "paper-2", "keywords": ["similarities", "differences", "genre", "theme"], "notes": ["Comparison should be conceptual, not just text-by-text.", "Write around themes and methods across both texts."] },
+        { "id": "context", "name": "Context", "paper": "paper-2", "keywords": ["literary period", "historical background", "genre"], "notes": ["OCR rewards contextual awareness when it shapes interpretation.", "Avoid generic context that could apply to any text."] },
+        { "id": "critics", "name": "Critical Interpretations", "paper": "nea", "keywords": ["readings", "debate", "scholarship", "interpretation"], "notes": ["Critical readings should be integrated into your argument.", "Use critics to create debate, not decoration."] }
+      ],
+      "channels": [
+        { "name": "Mr Bruff", "url": "https://www.youtube.com/@mrbruff", "note": "literature analysis and essay skills" },
+        { "name": "Massolit", "url": "https://www.youtube.com/@Massolit", "note": "literary lectures and context" },
+        { "name": "OCR English Literature revision", "url": "https://www.youtube.com/results?search_query=OCR+A+Level+English+Literature+revision", "note": "OCR-specific search hub" }
+      ]
+    },
+    {
+      "id": "edexcel-history",
+      "name": "Edexcel History",
+      "board": "Edexcel",
+      "tagline": "source analysis, interpretations, depth studies and coursework",
+      "papers": [
+        { "id": "paper-1", "name": "Breadth Study", "max": 60, "topicWeights": { "breadth": 60, "essay-skills": 25, "sources": 15 } },
+        { "id": "paper-2", "name": "Depth Study", "max": 40, "topicWeights": { "depth": 55, "sources": 30, "essay-skills": 15 } },
+        { "id": "paper-3", "name": "Themes in Breadth with Aspects in Depth", "max": 60, "topicWeights": { "themes": 50, "interpretations": 30, "essay-skills": 20 } },
+        { "id": "coursework", "name": "Coursework", "max": 40, "topicWeights": { "coursework": 60, "interpretations": 25, "essay-skills": 15 } }
+      ],
+      "boundaries": { "source": "Starter boundary model - replace with official last-year Edexcel figures", "grades": { "A*": 160, "A": 140, "B": 120, "C": 100, "D": 80, "E": 60 } },
+      "topics": [
+        { "id": "breadth", "name": "Breadth Study", "paper": "paper-1", "keywords": ["change", "continuity", "causation", "turning points"], "notes": ["Breadth essays need long-term patterns.", "Use chronology to show change over time."] },
+        { "id": "depth", "name": "Depth Study", "paper": "paper-2", "keywords": ["events", "causes", "consequences", "significance"], "notes": ["Depth essays need precise evidence and explanation.", "Avoid narrative by linking facts to the question."] },
+        { "id": "themes", "name": "Themes", "paper": "paper-3", "keywords": ["state", "society", "economy", "ideology"], "notes": ["Thematic essays need connections across periods.", "Structure around argument, not chronology alone."] },
+        { "id": "sources", "name": "Source Skills", "paper": "paper-2", "keywords": ["provenance", "content", "utility", "inference"], "notes": ["Source answers should use content and provenance together.", "Evaluate utility for the specific enquiry."] },
+        { "id": "interpretations", "name": "Interpretations", "paper": "paper-3", "keywords": ["historians", "argument", "evidence", "judgement"], "notes": ["Interpretations questions need comparison of views.", "Explain why historians may differ."] },
+        { "id": "coursework", "name": "Coursework", "paper": "coursework", "keywords": ["enquiry", "historiography", "evidence", "argument"], "notes": ["Coursework needs a focused question and sustained judgement.", "Use historians critically rather than descriptively."] },
+        { "id": "essay-skills", "name": "Essay Skills", "paper": "paper-1", "keywords": ["judgement", "criteria", "evidence", "structure"], "notes": ["Strong history essays use criteria to judge importance.", "Every paragraph should advance the argument."] }
+      ],
+      "channels": [
+        { "name": "Mr Allsop History", "url": "https://www.youtube.com/@misterallsop", "note": "history explanations and revision" },
+        { "name": "A Level History revision", "url": "https://www.youtube.com/results?search_query=Edexcel+A+Level+History+revision", "note": "Edexcel topic search hub" },
+        { "name": "History Hub", "url": "https://www.youtube.com/results?search_query=A+Level+History+source+skills", "note": "source and essay skills support" }
+      ]
+    },
+    {
+      "id": "edexcel-politics",
+      "name": "Edexcel Politics",
+      "board": "Edexcel",
+      "tagline": "UK politics, government, political ideas and comparative politics",
+      "papers": [
+        { "id": "paper-1", "name": "UK Politics", "max": 84, "topicWeights": { "democracy": 25, "parties": 25, "elections": 25, "ideologies": 25 } },
+        { "id": "paper-2", "name": "UK Government", "max": 84, "topicWeights": { "constitution": 25, "parliament": 25, "executive": 25, "judiciary": 25 } },
+        { "id": "paper-3", "name": "Comparative Politics", "max": 84, "topicWeights": { "us-politics": 50, "comparative-theories": 30, "ideologies": 20 } }
+      ],
+      "boundaries": { "source": "Starter boundary model - replace with official last-year Edexcel figures", "grades": { "A*": 202, "A": 176, "B": 151, "C": 126, "D": 101, "E": 76 } },
+      "topics": [
+        { "id": "democracy", "name": "Democracy and Participation", "paper": "paper-1", "keywords": ["participation", "pressure groups", "rights", "democracy"], "notes": ["Democracy essays need examples and balanced judgement.", "Use turnout, participation and pressure group evidence."] },
+        { "id": "parties", "name": "Political Parties", "paper": "paper-1", "keywords": ["Conservatives", "Labour", "minor parties", "funding"], "notes": ["Party questions need ideology, policy and electoral evidence.", "Compare parties directly where possible."] },
+        { "id": "elections", "name": "Elections and Voting", "paper": "paper-1", "keywords": ["systems", "voting behaviour", "referendums", "campaigns"], "notes": ["Elections answers should use data and examples.", "Evaluate electoral systems by representation, stability and accountability."] },
+        { "id": "ideologies", "name": "Political Ideas", "paper": "paper-1", "keywords": ["liberalism", "conservatism", "socialism", "feminism"], "notes": ["Ideology essays need core ideas and thinkers.", "Use strands within ideologies to create debate."] },
+        { "id": "constitution", "name": "Constitution", "paper": "paper-2", "keywords": ["sovereignty", "devolution", "rights", "reform"], "notes": ["Constitution answers need principles and reform examples.", "Evaluate whether change has gone too far or not far enough."] },
+        { "id": "parliament", "name": "Parliament", "paper": "paper-2", "keywords": ["scrutiny", "legislation", "representation", "Lords"], "notes": ["Parliament questions should assess effectiveness, not just describe roles.", "Use examples of scrutiny and rebellion."] },
+        { "id": "executive", "name": "Prime Minister and Executive", "paper": "paper-2", "keywords": ["cabinet", "prime minister", "powers", "constraints"], "notes": ["Executive essays need power versus constraint.", "Use examples of leadership style and events."] },
+        { "id": "judiciary", "name": "Judiciary", "paper": "paper-2", "keywords": ["independence", "neutrality", "Supreme Court", "rights"], "notes": ["Judiciary answers should distinguish independence and neutrality.", "Use case examples to support evaluation."] },
+        { "id": "us-politics", "name": "US Politics", "paper": "paper-3", "keywords": ["presidency", "Congress", "Supreme Court", "federalism"], "notes": ["US politics needs institutional knowledge and examples.", "Comparisons should be explicit and criteria-based."] },
+        { "id": "comparative-theories", "name": "Comparative Theories", "paper": "paper-3", "keywords": ["rational", "cultural", "structural", "similarities"], "notes": ["Comparative theories explain why systems differ.", "Apply theories rather than naming them at the end."] }
+      ],
+      "channels": [
+        { "name": "Alan History Nerd", "url": "https://www.youtube.com/@AlanHistoryNerd", "note": "politics and history explainers" },
+        { "name": "Prechewed Politics", "url": "https://www.youtube.com/results?search_query=Prechewed+Politics", "note": "A Level Politics revision" },
+        { "name": "A Level Politics Show", "url": "https://www.youtube.com/results?search_query=A+Level+Politics+Show", "note": "topic discussions and exam support" }
+      ]
+    }
+  ]
+}
